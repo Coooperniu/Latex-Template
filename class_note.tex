@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
+\usepackage{tabularx} 
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{cancel}
+\usepackage{hyperref}
+\usepackage{tikz-feynman}
+\usepackage{indentfirst}
+\usepackage{secdot}% Adds . after sectional unit numbers
+\usepackage[margin=1in,letterpaper]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage[british, french]{babel}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{Cooper Niu}
+\renewcommand{\sectionmark}[1]{%
+\markboth{\thesection\quad #1}{}}
+\fancyhead{}
+\fancyhead[L]{\leftmark}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+
+\setstretch{1}
+\hypersetup{
+	colorlinks=false,       % false: boxed links; true: colored links
+	linkcolor=blue,        % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,     % color of file links
+	urlcolor=blue         
+}
+
+\usepackage{hhline}
+\usepackage{lineno}
+\usepackage{titlesec}
+\titlelabel{\thetitle\quad}
+
+\usepackage{tocloft}
+\cftsetindents{section}{0em}{1.8em}
+\cftsetindents{subsection}{2.3em}{1.5em}
+
+\numberwithin{equation}{section}
+\pagenumbering{arabic}
+
+\title{\textbf{Give a nice title}}
+\author{\textbf{Your Name}}
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Introduction}
+\subsection{Background}
+
+\end{document}
